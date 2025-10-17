@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" version="1.1">
+  <title>3T Technology LLC - BIMI Logo</title>
+  <desc>Simple vector logo for BIMI use. Square, no raster images, solid shapes only.</desc>
+  <defs>
+    <clipPath id="pad">
+      <rect x="8" y="8" width="240" height="240" rx="32" ry="32"/>
+    </clipPath>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" fill="#0A0F1F" />
+  <g clip-path="url(#pad)">
+    <rect x="8" y="8" width="240" height="240" rx="32" ry="32" fill="#101a34"/>
+    <rect x="8" y="128" width="240" height="120" fill="#0A0F1F" opacity="0.25"/>
+    <!-- Stylized 3T monogram -->
+    <g transform="translate(28,24)">
+      <path d="M0,44 C0,20 20,0 44,0 L156,0 C176,0 192,16 192,36 C192,56 176,72 156,72 L84,72 L84,88 L156,88 C176,88 192,104 192,124 C192,144 176,160 156,160 L44,160 C20,160 0,140 0,116 L0,108 L36,108 L36,116 C36,128 44,136 56,136 L148,136 C156,136 164,128 164,120 C164,112 156,104 148,104 L52,104 L52,56 L148,56 C156,56 164,48 164,40 C164,32 156,24 148,24 L56,24 C44,24 36,32 36,44 L36,52 L0,52 Z" fill="#66F0A7"/>
+      <rect x="84" y="0" width="28" height="160" fill="#66F0A7" opacity="0.2"/>
+    </g>
+  </g>
+  <!-- Brand text -->
+  <g aria-label="3T TECHNOLOGY" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#E6EDF7">
+    <text x="128" y="220" font-size="22" text-anchor="middle" letter-spacing="2">3T TECHNOLOGY</text>
+  </g>
+</svg>
